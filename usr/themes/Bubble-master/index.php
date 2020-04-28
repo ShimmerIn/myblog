@@ -1,12 +1,5 @@
 <?php
-/**
- * Typecho 极简风格响应式主题
- * 
- * @package Bubble
- * @author TriNitroTofu, Rorical, Boshi
- * @version 3.0.2
- * @link https://github.com/trinitrotofu/Bubble
- */
+
 
 	if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 	$this->need('header.php');
