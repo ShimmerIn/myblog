@@ -23,7 +23,9 @@
 							</div>
 							<h1 class="text-white"><?php $this->options->title() ?></h1>
 							<hr/>
-							<p class="lead text-white"><?php $this->options->description() ?></p>
+							<p class="lead text-white" style="overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;"><?php $this->options->description() ?></p>
 						</div>
 					</div>
 				</div>
