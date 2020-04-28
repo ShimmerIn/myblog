@@ -14,7 +14,7 @@
 
 	<main>
 		<section class="section section-lg section-hero section-shaped" style="height: 100vh;">
-			<?php printBackground($this->options->indexImage, $this->options->bubbleShow); ?>
+			<?php printBackground('http://www.leeweb.com/usr/themes/Bubble-master/images/background.jpg', ''); ?>
 			<div class="container shape-container d-flex align-items-center py-lg">
 				<div class="col px-0">
 					<div class="row align-items-center justify-content-center">
@@ -22,7 +22,7 @@
 							<div class="index-avatar-container">
 								<img src="<?php
 									if ($this->options->avatarUrl == '') {
-										$this->options->themeUrl("images/avatar.png");
+										$this->options->themeUrl("images/admin.jpeg");
 									} else {
 										$this->options->avatarUrl();
 									}
